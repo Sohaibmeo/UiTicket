@@ -1,4 +1,3 @@
-
 .wholeCard {
     background-color: #242435 !important;
     margin-bottom: 30px;
@@ -53,3 +52,20 @@
 .bidText{
     margin-top: 6px;
 }
+
+@media (min-width: 880px ) AND (max-width: 1400px)  {
+    .bidText {
+      display: none;
+    }
+    .totalBids{
+        margin-bottom: 20px;
+    }
+    .highBidText{
+        font-size: 12px !important;
+    }
+    .favouriteIcon{
+        display: none !important;
+    }
+}
+
+

@@ -32,7 +32,7 @@ function Cards(props) {
               <Typography variant="h5" component="h6" noWrap color='white'>
                 {props.title}
               </Typography>
-              <Typography marginBottom="20px" variant="body2" component="h2" noWrap>
+              <Typography className={css.highBidText} marginBottom="20px" variant="body2" component="h2" noWrap>
                 Highest Bid : 64/7
               </Typography>
               <Typography variant="body2" component="h2" noWrap color='primary' >

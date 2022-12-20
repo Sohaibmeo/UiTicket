@@ -17,3 +17,8 @@
     left: 180px;
     color: white;
 }
+@media (max-width: 700px) {
+    .textLeft {
+      display: none;
+    }    
+}
