@@ -1,0 +1,71 @@
+.wholeCard {
+    background-color: #242435 !important;
+    margin-bottom: 30px;
+    text-align: left;
+    color: lightgray !important;
+}
+
+.imageSet {
+    padding: 10px;
+    border-radius: 5%;
+    height: 250px;
+}
+.totalBids{
+    display: flex;
+    padding-left: 100px;
+    padding-bottom: 10px;
+}
+.bidIcon {
+    height: 30px;
+    border-radius: 50%;
+    position: absolute;
+    width: 30px !important;
+    overflow: hidden;
+}
+.Icons{
+    color: lightgrey !important;
+    position: absolute !important;
+    right: 0;
+}
+.moreIcon{
+    composes: Icons;
+    margin-left: 10px;
+}
+.favouriteIcon{
+    composes: Icons;
+    font-size: 15px;
+    transform: scale(0.9);
+    bottom: 12px;
+}
+.bidIcon1 {
+    composes: bidIcon;
+    left: 15px;
+}
+.bidIcon2 {
+    composes: bidIcon;
+    left: 30px;
+}
+.bidIcon3 {
+    composes: bidIcon;
+    left: 45px;
+}
+.bidText{
+    margin-top: 6px;
+}
+
+@media (min-width: 880px ) AND (max-width: 1400px)  {
+    .bidText {
+      display: none;
+    }
+    .totalBids{
+        margin-bottom: 20px;
+    }
+    .highBidText{
+        font-size: 12px !important;
+    }
+    .favouriteIcon{
+        display: none !important;
+    }
+}
+
+
